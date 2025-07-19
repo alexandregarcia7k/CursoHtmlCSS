@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem flexivel</title>
+</head>
+<body>
+<H1>Imagem flexível</H1>
+<p>VOCÊ ESTA VENDO A IMAGEM COMPLETA? EXPERIMENTE AMPLIAR O TAMANHO DA JANELA PARA MELHOR EXPERIÊNCIA!</p>
+<picture>
+    <source media="(max-width: 400px)" srcset="imagens/pequena.png" type="image/png">
+    <source media="(max-width: 1920px)" srcset="imagens/media.jpeg" type="image/jpeg">
+    <img src="imagens/grande.jpeg" alt="Imagem fleixvel">
+
+</picture>
+</body>
+</html>

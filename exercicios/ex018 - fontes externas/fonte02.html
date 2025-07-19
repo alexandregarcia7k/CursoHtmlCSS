@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family: face;
+            src: url(adler.ttf) format(-truetype-aat), url(adler) format(-truetype-aat);
+            /*
+                Tipos de format()
+                -opentype quando é otf
+                -truetype quando é ttf 
+                -embedded - opentype
+                -truetype-aat (apple advanced typography)
+                -svg
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            font-family: adler, Times, serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <h1>Titulo</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum sequi temporibus accusantium earum, nobis doloremque unde molestias, tempore nesciunt, tenetur nostrum excepturi assumenda ab natus at praesentium ducimus eaque recusandae.</p>
+    <h2>Subtitulo</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates aperiam corrupti illum dicta ad unde temporibus animi provident, ab rem illo est asperiores dignissimos delectus quaerat omnis dolorem repellendus?</p>
+</body>
+</html>

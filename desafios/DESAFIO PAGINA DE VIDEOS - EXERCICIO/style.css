@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: #1a1919; /* fundo escuro */
+    color: white; /* cor do texto padrão */
+    font-family: Arial, sans-serif; /* uma fonte mais legível */
+    margin: 0;
+    padding: 20px; /* espaçamento no corpo da página */
+}
+
+a {
+    color: white; /* cor dos links */
+    text-decoration: none; /* remove o sublinhado */
+    font-weight: bold; /* torna os links mais visíveis */
+}
+
+a:hover {
+    color: #cccccc; /* muda a cor ao passar o mouse */
+    text-decoration: underline; /* sublinha ao passar o mouse */
+}
