@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+body {
+        min-height: 100vh;
+    background-color: white;
+    font-family: var(--fonte1);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+
+  
+}
+header h1 {
+    padding-top: px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 6vw;
+    
+    
+}
+header  p {
+    padding-bottom: 50px;
+    font-size: 300%;
+    text-decoration: none;
+    
+}
+header a {
+    color: white;
+}
+header a:hover {
+    color: blue;
+}
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+    font-size: 90px;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
+    background-color: rgb(255, 255, 255);
+}
