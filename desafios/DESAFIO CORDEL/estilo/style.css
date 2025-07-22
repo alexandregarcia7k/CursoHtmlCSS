@@ -89,3 +89,31 @@ section#img02 {
     background-position: left center;
     
 }
+div.fundo-fixo#img01 {
+  background-image: url("../imagens/background001.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+div.fundo-fixo#img02 {
+  background-image: url("../imagens/background002.jpg");
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+}
+
+div.conteudo {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+}
